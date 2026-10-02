@@ -32,12 +32,12 @@ public class DeveloperTest {
     @Test 
     public void getTeam_returns_correct_team() {
         Team t = new Team("f26-01");
-        t.addMember("Christian");
-        t.addMember("Owen");
-        t.addMember("Andrew");
-        t.addMember("Jonny");
-        t.addMember("Nathan");
-        t.addMember("YiFan");
+        t.addMember("CHRISTIAN SANTIAGO");
+        t.addMember("OWEN");
+        t.addMember("ANDREW BOYAO");
+        t.addMember("JONATHAN ISAI");
+        t.addMember("NATHAN YAN WEN");
+        t.addMember("YIFAN");
 
         assertEquals(true, t.equals(Developer.getTeam()));
     }
